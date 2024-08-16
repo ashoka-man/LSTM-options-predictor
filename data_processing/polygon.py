@@ -4,7 +4,7 @@ import pytz
 import csv
 
 # Define the API endpoint
-url = "https://api.polygon.io/v2/aggs/ticker/SPY/range/1/minute/2024-08-01/2024-08-14?adjusted=true&sort=asc&apiKey=ppCltLjDE20hppcB6gxF950W25rkL6_j"
+url = "https://api.polygon.io/v2/aggs/ticker/SPY/range/1/minute/2024-08-05/2024-08-09?adjusted=true&sort=asc&apiKey=ppCltLjDE20hppcB6gxF950W25rkL6_j"
 
 # Send a GET request to the API
 response = requests.get(url)
